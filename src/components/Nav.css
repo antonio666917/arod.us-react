@@ -1,0 +1,91 @@
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1em;
+}
+
+.nav-logo {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  text-indent: -9000px;
+  background: transparent url('../images/logo-eee.png') no-repeat center center;
+  background-size: contain;
+  width: 26px;
+  height: 26px;
+  opacity: 1;
+  animation: fadeIn 1s 1 normal forwards ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  80% {
+    transform: rotate(-30deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotate(-34deg);
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    transform: rotate(-34deg);
+  }
+  50% {
+    opacity: 0.6;
+  }
+  70% {
+    transform: rotate(-12deg);
+  }
+  to {
+    opacity: 0;
+    transform: rotate(0deg);
+  }
+}
+
+.nav-logo.inactive {
+  opacity: 0;
+  animation: fadeOut 1s 1 normal forwards ease-in-out;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.nav > li {
+
+}
+
+.nav > li a {
+  display: flex;
+  align-items: flex-end;
+  text-decoration: none;
+  padding: 0.7rem 1rem;
+  border-bottom: 1px solid #FFF;
+  margin-left: 0.5rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.nav > li .active {
+  border-bottom: 1px solid black;
+}
+
+.nav > li a:hover {
+  background: #000000;
+  color: #FFF;
+}
+
+
