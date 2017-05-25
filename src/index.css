@@ -6,8 +6,12 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+a {
+  color: black;
+}
+
 .wrapper {
-  max-width: 75em;
+  max-width: 70em;
   flex-direction: row;
   flex-wrap: nowrap;
   margin-left: auto;
