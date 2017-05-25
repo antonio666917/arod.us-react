@@ -16,12 +16,19 @@
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  border: 1px solid white;
+  border: 2px solid white;
   margin-right: 0.5em;
 }
 
 .hero_text {
   margin-left: 1em;
+}
+.hero_text a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.hero_text a:hover {
+  text-decoration: underline;
 }
 
 .hero h1 {
