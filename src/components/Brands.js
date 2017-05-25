@@ -17,7 +17,7 @@ function Brands() {
             )
           })}
         </div>
-        <a className="brand_link" title="{brand.name}" href="">Let's work together!</a>
+        <a className="brand_link" title="{brand.name}" href="mailto:antoniwan@gmail.com?subject=Let's Work Together!">Let's work together!</a>
       </div>
     </section>
   )
@@ -27,7 +27,7 @@ function BrandItem(props) {
   let imageSource = require(`../images/brands/${props.logo}`);
   return (
     <div className="brand_item">
-      <img src={imageSource} alt={props.alt} />
+      <img src={imageSource} title={props.alt} alt={props.alt} />
     </div>
   )
 }
