@@ -24,10 +24,10 @@ function Brands() {
 }
 
 function BrandItem(props) {
-  let source = require(`../images/brands/${props.logo}`);
+  let imageSource = require(`../images/brands/${props.logo}`);
   return (
     <div className="brand_item">
-      <img src={source} alt={props.alt} />
+      <img src={imageSource} alt={props.alt} />
     </div>
   )
 }
