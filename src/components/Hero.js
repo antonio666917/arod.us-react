@@ -1,7 +1,7 @@
 import React from 'react';
 import './Hero.css';
 
-import ProfilePicture from '../images/profilepictures/2.jpg';
+import ProfilePicture from '../images/profilepictures/darkness.jpg';
 
 function Hero() {
   return (
@@ -13,7 +13,7 @@ function Hero() {
         </div>
 
         <div className="hero_text">
-          <h2>Hello! I'm a <strong>software engineer</strong> working as the <strong>lead technologist</strong> in a <strong>digital marketing</strong> agency.</h2>
+          <h1>Hello! I'm a <strong>software engineer</strong> working as the <strong>lead technologist</strong> in a <strong>digital marketing</strong> agency.</h1>
         </div>
 
       </div>
