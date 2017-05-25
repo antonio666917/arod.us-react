@@ -1,4 +1,6 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+
 import './Brands.css';
 import { BrandsList } from '../data/Brands';
 
@@ -15,7 +17,7 @@ function Brands() {
             )
           })}
         </div>
-        <a href="">Let's work together!</a>
+        <a className="brand_link" title="{brand.name}" href="">Let's work together!</a>
       </div>
     </section>
   )
@@ -29,5 +31,9 @@ function BrandItem(props) {
     </div>
   )
 }
+BrandItem.propTypes = {
+  logo: PropTypes.string.isRequired,
+  alt: PropTypes.string.isRequired
+};
 
 export default Brands;

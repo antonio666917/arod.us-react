@@ -23,6 +23,7 @@
 
 .brand_item {
   margin-bottom: 2em;
+  margin-right: 0.5em;
 }
 .brand_item img {
   max-height: 25px;
@@ -30,5 +31,12 @@
 }
 .brand_item img:hover {
   filter: grayscale(0%);
-  transition: filter 1s linear;
+  transition: filter 0.3s linear;
+}
+
+.brand_link {
+  display: block;
+  text-align: right;
+  text-decoration: none;
+  color: #000000;
 }
