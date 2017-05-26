@@ -11,13 +11,14 @@
   padding: 0;
   display: flex;
   justify-content: flex-start;
-  text-indent: -9000px;
+  text-indent: -5000%;
   background: transparent url('../images/logo-eee.png') no-repeat center center;
   background-size: contain;
   width: 26px;
   height: 26px;
   opacity: 1;
   animation: fadeIn 1s 1 normal forwards ease-in-out;
+  overflow: hidden;
 }
 
 @keyframes fadeIn {
