@@ -20,6 +20,10 @@ p {
   text-rendering: optimizeLegibility;
 }
 
+li {
+  line-height: 1.6;
+}
+
 .wrapper {
   max-width: 70em;
   flex-direction: row;
