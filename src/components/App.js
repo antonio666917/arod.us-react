@@ -5,18 +5,17 @@ import './App.css';
 import Nav from './Nav';
 import Home from './Home';
 import About from './About';
+import Footer from './Footer';
 
 class App extends Component {
   render() {
     return (
       <Router>
         <div>
-          <div className="wrapper">
-            <Nav />
-          </div>
-
+          <Nav />
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
+          <Footer />
         </div>
       </Router>
     );
