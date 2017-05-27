@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import { Helmet } from "react-helmet";
 
 import './App.css';
 import Nav from './Nav';
@@ -14,9 +13,6 @@ class App extends Component {
     return (
       <Router>
         <div>
-          <Helmet>
-            <meta property="og:image" content={shareimage} />
-          </Helmet>
           <Nav />
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
