@@ -9,7 +9,7 @@ function Brands() {
   return (
     <section className="brands">
       <div className="wrapper">
-        <h2>I've built <span>stuff</span> for many brands!</h2>
+        <h2>Besides building my own companies, I've built <span>stuff</span> for many brands!</h2>
         <div className="brand_list">
           {brandList.map((brand, index) => {
             return (
