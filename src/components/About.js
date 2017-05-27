@@ -29,14 +29,13 @@ function About() {
       <ul>
         <li>We have a 12-year old boy, who is a TOTAL BADASS!</li>
         <li>I can effortlessly eat two large pizzas by myself.</li>
-        <li>Before college, I was an avid athlete! Black belts in Tae-Kwon-Do and Shotokan. Also achieved level 5 in gymnastics!</li>
+        <li>Before college I was an avid athlete, practicing Shotokan and gymnastics competitively! Nowadays I partake in pick-up basketball and DOTA2. </li>
         <li>I achieved some certifications while attending high-school (CCNA, MSCE, Net+ and A+) and worked as a network specialist at the University of Puerto Rico for several months.</li>
         <li>When I moved to Miami I founded the "<a href="https://www.facebook.com/groups/1395203817368867/" target="_blank" rel="noopener noreferrer">Below-Amateur Athletes Club</a>" because we couldn't find  people to play basketball with. I love <span role="img" aria-label="Basketball">🏀</span>!</li>
         <li>While working as a network specialist at the University of Puerto Rico's main precinct, a friend and I challenged the Dean of Technology to let us rebuild the aging website... he accepted and I quickly became the Lead Web Developer for the whole precinct! I built a suite of web-based student services: enrollment, tuition payments, online grades, schedules, academic progress evaluations, and other services. These web services are still in use to this date, hopefully with updated source code <span role="img" aria-label="Sweating happily">😅</span>!</li>
-        <li>During "the big 2010 student strike", I built the first secure electronic referendum system employed by any governmental or educational institution in Puerto Rico. It was called the "Sistema de Consulta al Estudiante".</li>
-        <li>I was part of a nu-metal band from Puerto Rico, called <a href="https://www.google.com/search?q=mabuyan&nfpr=1&source=lnms&sa=X&ved=0ahUKEwik_9P4x43UAhVM5yYKHUuTC-QQ_AUICSgA&biw=1344&bih=1032&dpr=2" target="_blank" rel="noopener noreferrer">Mabuyan</a>.</li>
+        <li>During "the big 2010 student strike" at the University of Puerto Rico I built the first secure electronic referendum system employed by any governmental or educational institution in Puerto Rico. It was called the "Sistema de Consulta al Estudiante". It was a glorious disaster.</li>
         <li>Started my first business with a great friend, Jorge Suarez (he's now the head of product for a fancy new startup called Hyp3r) and the experience was just mind-blowing. It was a creative web development studio called "Kolapse Interactive". Business was good. Eventually, a digital marketing agency from Miami acquired Kolapse.</li>
-        <li>Got addicted to hackathons after attending the PayPal BattleHack Miami 2014 and winning a <a href="https://scontent.xx.fbcdn.net/v/t1.0-9/1609626_10152222065329820_2114747425_n.jpg?oh=2d7c930b55cace33e8c91051b7255d2e&oe=596450B6" target="_blank" rel="noopener noreferrer">PlayStation 4</a> as a 2nd place prize. I get to do what I love AND WIN CRAZY PRIZES? OH MY!</li>
+        <li>I love <a href="https://scontent.xx.fbcdn.net/v/t1.0-9/1609626_10152222065329820_2114747425_n.jpg?oh=2d7c930b55cace33e8c91051b7255d2e&oe=596450B6" target="_blank" rel="noopener noreferrer">hackathons</a>!</li>
         <li>My wife and I met on Twitter.</li>
       </ul>
     </div>
