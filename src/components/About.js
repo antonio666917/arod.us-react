@@ -1,10 +1,16 @@
 import React from 'react';
+import { Helmet } from "react-helmet";
 
 import './About.css';
 
 function About() {
   return (
     <div className="about wrapper">
+
+      <Helmet>
+        <title>About Antonio Rodriguez</title>
+      </Helmet>
+
       <h1>About Me</h1>
       <p>Building software brings me immense satisfaction.  I own experience leading teams, mentoring interns, as a software engineer, as a project manager, as an external consultant, as a digital marketing technologist and hacking my way through any technical challenge that showed its beautiful face. Check out my <a href="https://www.linkedin.com/in/antoniwan" target="_blank" rel="noopener noreferrer">LinkedIn profile</a>. Two out of two of the companies that I've built, or helped built, have been acquired. Boom!</p>
       <p>I'm happily married and currently living in Miami. English is my second language and I may or may not be a horrible writer.</p>
